@@ -1,0 +1,165 @@
+header {
+    color: rgba(255, 255, 255, 0.349);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.164);
+    backdrop-filter: blur(6.5px);
+    padding-bottom: 1.25%;
+    padding-top: 1.25%;
+    padding-left: 1.25%;
+    padding-right: 1.25%;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    position:fixed;
+    top:1.2%;
+}
+
+body {
+    background-color: rgb(54, 54, 54);
+    color: #ffffff;
+}
+
+header:hover {
+    color: rgb(255, 255, 255);
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+footer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.500);
+    padding: 1.25%;
+    background: linear-gradient(to right, rgb(183, 140, 255), rgb(52, 140, 255));
+    border-radius: 10px;
+}
+.gradtext {
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(181, 204, 255));
+    background-clip:border-box;
+    transition-duration: 0.4s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradtext:hover {
+    color: rgb(255, 174, 0)
+}
+
+.gradtext1 {
+    background-image: linear-gradient(to right, rgba(183, 0, 255, 0.500) , rgba(0, 110, 255, 0.500));
+    background-clip:border-box;
+    transition-duration: 0.4s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+.gradtext1:hover {
+    background-image: linear-gradient(to right, rgba(183, 0, 255, 1) , rgba(0, 110, 255, 1));
+}
+
+.navbar {
+    margin-left: 1px;
+    color: rgba(255, 255, 255, 0.349);
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.4s;
+    border-radius: 10px;
+    stroke: rgba(0, 0, 0, 0);
+    align-items: end;
+    border: 0px;
+}
+
+.navbar:hover {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
+}
+
+.tempspacer {
+    margin-bottom: 0%;
+    align-self: center;
+}
+
+.pone {
+    background: rgb(0, 44, 73);
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.ptwo {
+    background: rgb(0, 121, 202);
+    border-radius: 10px;
+    margin: 1%;
+    padding: 1%;
+    text-align: left;
+    box-shadow: 10px;
+    text-shadow: 10px;
+}
+
+.smallfootnoteimg {
+      width: 2.3%;
+      height: 0.25%;
+      margin-top: 1.15%;
+}
+
+a {
+    text-decoration: rgb(255, 255, 255);
+}
+
+.pimg {
+    border-radius: 5px;
+    width: 98%;
+    height: 98%;
+    margin: auto;
+    display: grid;
+    grid-row: 2;
+}
+.pimg:hover {
+    x: 0;
+    y: 0;
+    size: 200%;
+    box-shadow: inset;
+}
+.pdesc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+.projbutton {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0px;
+    transition-duration: 0.4s;
+    display: inline-flex;
+    align-items: center;
+    gap: 0px;
+    padding: 4px 6px;
+    margin-left: 83.5%;
+    background-color: rgb(0, 153, 255);
+    color: #ffffff;
+    border: 0px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.projbutton img {
+    height: 25px;
+    width: 25px;
+    display: block;
+}
+
+.projbutton span {
+    white-space: nowrap;
+}
+
+.projbutton:hover {
+    margin-left: 82%;
+    background-color: rgb(128, 204, 255);
+    font-size: 16px;
+    gap:5px;
+}
